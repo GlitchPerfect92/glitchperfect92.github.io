@@ -50,6 +50,16 @@ a { color: var(--green); }
 
 .muted { color: var(--muted); }
 
+.badge {
+  display: inline-block;
+  margin: 28px 0 0;
+  padding: 6px 14px;
+  border: 1px solid var(--magenta);
+  border-radius: 999px;
+  font-size: .9rem;
+  font-weight: 700;
+}
+
 footer {
   display: flex;
   flex-wrap: wrap;
